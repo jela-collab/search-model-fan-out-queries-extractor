@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Search Model Fan Out Queries Extractor v3.3",
+  "version": "3.3",
+  "description": "Udtrækker Search Model Fan Out Queries ved at genindlæse og scanne ChatGPT-samtalen.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Search Model Fan Out Queries Extractor v3.3"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "tabs", "debugger"],
+  "host_permissions": ["https://chatgpt.com/*", "https://chat.openai.com/*"]
+}
