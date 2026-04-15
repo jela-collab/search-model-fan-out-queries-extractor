@@ -19,7 +19,12 @@ For en SEO-specialist giver dette et unikt indblik i:
 * De faktiske "fan out queries" brugt i netværksaktiviteten.
 
 ## Installation
-1. Pak zip-filen ud på din computer.
+1. Hent filerne og gem i en mappe: "ChatGPT Search Model Queries Extractor"
+.. README.md
+.. background.js
+.. manifest.json
+.. popup.html
+.. popup.js
 2. Åbn Chrome og gå til `chrome://extensions/`.
 3. Slå **"Developer mode"** til i øverste højre hjørne.
 4. Klik på **"Load unpacked"** (Hent upakket).
